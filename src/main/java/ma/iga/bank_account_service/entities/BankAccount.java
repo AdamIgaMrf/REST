@@ -16,7 +16,6 @@ public class BankAccount {
     @Id
     private String id;
     private Date createdAt;
-    // I used Double over double to match the test I did in BankAccountRestController since I need values to be null not 0 in this case
     private Double balance;
     private String currency;
     @Enumerated(EnumType.STRING)
